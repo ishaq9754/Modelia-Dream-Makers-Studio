@@ -21192,6 +21192,12 @@ a img.aligncenter {
 	max-height: none;
 	transition: all 0.2s linear 0s;
 }
+.page_header a:hover 
+	{
+		color: #e41779;
+		text-decoration: none;
+		transition: all 0.15s linear 0s;
+	};
 
 @media (max-width: 1400px) {
 	.page_header a.logo img {
@@ -22780,7 +22786,7 @@ body.active-side-header.slide-right .page_header_side {
 	}
 }
 
-.page_slider.video-bg .s-overlay.ds:before {
+/* .page_slider.video-bg .s-overlay.ds:before {
 	opacity: 0.8;
 }
 
@@ -22820,7 +22826,7 @@ body.active-side-header.slide-right .page_header_side {
 
 .page_slider video {
 	min-width: 100%;
-}
+} */
 
 .page_slider .flex-bg {
 	bottom: 0;
