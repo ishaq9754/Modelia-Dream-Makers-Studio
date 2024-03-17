@@ -21188,16 +21188,10 @@ a img.aligncenter {
 }
 
 .page_header a.logo img {
-	height: 126px;
+	height: 80px;
 	max-height: none;
 	transition: all 0.2s linear 0s;
 }
-.page_header a:hover 
-	{
-		color: #e41779;
-		text-decoration: none;
-		transition: all 0.15s linear 0s;
-	};
 
 @media (max-width: 1400px) {
 	.page_header a.logo img {
@@ -21313,11 +21307,12 @@ a img.aligncenter {
 }
 
 .boxed .page_header a.logo img,
-.page_header.affix a.logo img {
+/* .page_header.affix a.logo img {
 	height: 80px;
 	max-height: none;
 	transition: all 0.2s linear 0s;
-}
+	
+} */
 
 .page_header.affix.s-bordertop::before {
 	display: none;
