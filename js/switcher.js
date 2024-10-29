@@ -2,7 +2,7 @@
 /////////////////////////////////////////////
 //DELETE FOLLOWING CODE TO DISABLE SWITCHER//
 /////////////////////////////////////////////
-jQuery(document).ready(function(){
+/*jQuery(document).ready(function(){
 
     window.patternClasses = [];
 
@@ -284,4 +284,4 @@ var switcherClass = {
 
         cookieClass.toggleTrueOrFalseCookie('dark');
     }
-}
+}*/
